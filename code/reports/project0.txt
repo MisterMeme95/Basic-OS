@@ -1,0 +1,21 @@
+Lyn Quintana
+a) I installed Nachos using Ocelot through Putty by following the sources given under Project 0. I made a directory called nachos then used wget to download nachos from the link, decompressed the file and used make in the code file to compile nachos. 
+b) In my experience with the tests they ran exactly as expected per the project 0 instructions and the single step mode showed the machine register in each step as I clicked enter until the machine halted.
+c) The thread class has minimal initialization in its constructor where its status is set to JUST_CREATED, the stack is null, and the name is the name given in the parameter. It contains a Fork function that creates a thread that the CPU can schedule and execute. Contains a StackAllocate function that allocates memory, places a sentinel value at the top of the stack, and initializes a PC. Also contains a yeild method as well as sleep and finish. 
+
+
+Name: Santiago Aday
+
+a) My experience installing Nachos was that it was very straightforward after reading all of the instructions and the notes on the entire process. Since I am somewhat familiar with UNIX environments, it was easy to use the command line and the general environment. 
+
+b) Just like with the general installation, the tests were also relatively straightforward. Using the notes and the instructions and the video, I was able to run the tests and get the output that I was meant to get. 
+
+c) A thread is when code is being synchronously executed along with other code whilst sharing global variables and methods. Having multiple threads allows a program to execute concurrently within a single process
+
+Name: Jonathan Mathurin
+Report: My experience in installing Nachos was relatively uneventful. Fortunately, due to having undergone a class in basic UNIX the previous semester, I'm pretty familiar with some unix functions and how to operate through putty.
+
+The tests were relatively simple, as it simply relied on us calling the objects that were already in the directories. The makefile also did all of the heavy lifting in setting up the source code.
+
+In basic terms, a thread is a sequential execution of source code. Splitting threads is how you can run multiple actions at once I believe.
+  
